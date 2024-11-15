@@ -14,9 +14,10 @@ import numpy as np
 
 # Your code here:
 # -----------------------------------------------
+import numpy as np
 
 def compute_output_size_1d(input_array, kernel_array):
-    pass
+    return np.len(input_array) - np.len(kernel_array) + 1
 
 
 # -----------------------------------------------
